@@ -2,7 +2,7 @@
 
 ## What's that?
 
-Playing around with Parcel and Bootstrap. Parcel is indeed zero-configuration bundle.
+Playing around with [Parcel](http://parceljs.org) and [Bootstrap](http://getbootstrap.com). Parcel is indeed zero-configuration bundle.
 
 Just clone the repo and hit `npm run start`.
 
