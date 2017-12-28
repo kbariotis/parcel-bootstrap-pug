@@ -1,3 +1,5 @@
+// Override Bootstrap and require only needed components
+
 $icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/" !default;
 
 @import "./../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
@@ -13,6 +15,5 @@ $icon-font-path: "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/" !de
 @import "./../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "./../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 @import "./../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
-
 @import "./../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs";
 @import "./../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
