@@ -7,7 +7,18 @@ html
     meta(name='author', content='Kostas Bariotis')
     title Example of using Parcel with Bootstrap (v3)
   body
-    block content
+    .container
+      .header.clearfix
+        nav
+          ul.nav.nav-pills.pull-right
+            li.active(role='presentation')
+              a(href='./index.pug') Home
+            li(role='presentation')
+              a(href='./about.pug') About
+        h3.text-muted Project name
+      block content
+      footer.footer
+        p © 2016 Company, Inc.
 
     block scripts
       script(src='../js/index.js')

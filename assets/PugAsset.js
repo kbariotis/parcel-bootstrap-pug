@@ -26,7 +26,7 @@ const ATTRS = {
     'iframe',
     'embed'
   ],
-  // href: ['link', 'a'],
+  href: ['link', 'a'],
   poster: ['video']
 };
 
